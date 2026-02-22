@@ -75,7 +75,7 @@ npm install
 
 3. Запустите PostgreSQL (или используйте docker-compose только для БД):
 ```bash
-docker-compose up -d postgres
+docker compose up -d postgres
 ```
 
 4. Запустите бота в режиме разработки:
