@@ -42,6 +42,9 @@ cd kufar-parser-bot
 ```bash
 cp .env.example .env
 ```
+файл изменнения правим в файле
+.env
+
 
 3. Отредактируйте `.env` и добавьте ваш токен:
 ```env
@@ -51,7 +54,7 @@ DB_PASSWORD=your_secure_password
 
 4. Запустите бота:
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 Бот автоматически создаст необходимые таблицы в базе данных при первом запуске.
