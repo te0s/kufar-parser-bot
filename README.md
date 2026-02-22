@@ -52,7 +52,12 @@ TELEGRAM_BOT_TOKEN=your_bot_token_here
 DB_PASSWORD=your_secure_password
 ```
 
-4. Запустите бота:
+4. для начала надо из пункта локальная разработка ниже установить npm иначе не заработает :
+```bash
+docker compose up -d
+```
+
+5. Запустите бота:
 ```bash
 docker compose up -d
 ```
