@@ -54,7 +54,7 @@ DB_PASSWORD=your_secure_password
 
 4. для начала надо из пункта локальная разработка ниже установить npm иначе не заработает :
 ```bash
-docker compose up -d
+npm install
 ```
 
 5. Запустите бота:
